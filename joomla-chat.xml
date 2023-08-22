@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension type="module" version="3.1" client="site" method="upgrade">
     <name>joomla-chat</name>
-    <version>0.2</version>
+    <version>0.3</version>
     <creationDate>25-08-2023</creationDate>
     <author>Konstantin Agafonov</author>
     <description>joomla-chat</description>
     <files>
         <filename module="joomla-chat">joomla-chat.php</filename>
-        <filename>app/jchat.css</filename>
-        <filename>app/jchat.js</filename>
+        <filename>app/build/static/css/main.d35d6ac9.css</filename>
+        <filename>app/build/static/js/main.857070ea.js</filename>
     </files>
 </extension>

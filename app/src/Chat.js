@@ -48,7 +48,8 @@ function Chat() {
             },
         ]);
 
-        fetch('http://domain04.com',{
+        /*fetch('http://domain04.com',{*/
+        fetch('http://test.kagafonov.beget.tech',{
             method: 'post',
             body: JSON.stringify({
                 message: inputRef.current.value,

@@ -1,3 +1,13 @@
+body {
+  position: relative;
+}
+
+#root {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+}
+
 .chat {
   width: 500px;
   height: 600px;
@@ -8,6 +18,9 @@
   flex-direction: column;
   flex-wrap: nowrap;
   justify-content: space-between;
+
+  color: black;
+  background-color: floralwhite;
 
   .messagelist-wrapper {
     overflow-y: scroll;
