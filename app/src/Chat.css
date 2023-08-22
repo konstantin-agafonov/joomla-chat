@@ -1,0 +1,15 @@
+.chat {
+  width: 500px;
+  height: 600px;
+  border: 1px solid black;
+  border-radius: 5px;
+
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+  .messagelist-wrapper {
+    overflow-y: scroll;
+  }
+}
