@@ -7,7 +7,7 @@
     <description>joomla-chat</description>
     <files>
         <filename module="joomla-chat">joomla-chat.php</filename>
-        <filename>app/build/static/css/main.d35d6ac9.css</filename>
-        <filename>app/build/static/js/main.857070ea.js</filename>
+        <filename>app/build/static/css/main.960f9393.css</filename>
+        <filename>app/build/static/js/main.371e4360.js</filename>
     </files>
 </extension>

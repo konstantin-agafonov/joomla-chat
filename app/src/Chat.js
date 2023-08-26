@@ -9,7 +9,10 @@ function Chat() {
             position: "left",
             type: "text",
             title: "Помощник",
-            text: "Добрый день! Отвечу на все вопросы.",
+            text: "Добрый день! Отвечу на все вопросы. например\n" +
+                "что-то:\n" +
+                "- первый\n" +
+                "- второй",
         },
     ]);
 
@@ -48,15 +51,16 @@ function Chat() {
             },
         ]);
 
-        /*fetch('http://domain04.com',{*/
-        fetch('http://test.kagafonov.beget.tech',{
+        /*fetch('http://test.kagafonov.beget.tech',{
             method: 'post',
             body: JSON.stringify({
                 message: inputRef.current.value,
             }),
-        })
+        })*/
+        fetch(`http://localhost:8000/question/${encodeURIComponent(inputCurrentValue)}` )
             .then((resp) => resp.json())
-            .then((data) => onResponseReceived(data.message));
+            .then((data) => onResponseReceived(data.message))
+            .catch((error) => console.log(error));
 
         inputRef.current.value = '';
     }

@@ -9,10 +9,10 @@ $document = Factory::getDocument();
 $options = array("version" => "auto");
 $attributes = array("defer" => "defer");
 
-$document->addScript(JURI::root()       . "modules/joomla-chat/app/build/static/js/main.857070ea.js", $options, $attributes);
-$document->addStyleSheet(JURI::root()   . "modules/joomla-chat/app/build/static/css/main.d35d6ac9.css", $options);
+$document->addScript(JURI::root()       . "modules/joomla-chat/app/build/static/js/main.371e4360.js", $options, $attributes);
+$document->addStyleSheet(JURI::root()   . "modules/joomla-chat/app/build/static/css/main.960f9393.css", $options);
 
-$document->addScriptOptions('my_vars', array('id' => "css-js-demo-id2"));
+$document->addScriptOptions('my_vars', [ 'id' => "css-js-demo-id2" ] );
 
 JText::script('JLIB_HTML_EDIT_MENU_ITEM_ID');
 
