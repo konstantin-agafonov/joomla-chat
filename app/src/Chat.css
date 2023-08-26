@@ -1,17 +1,14 @@
-/*body {
-  position: relative;
-}*/
-
 #root {
-  /*position: absolute;
+  position: fixed;
   right: 30px;
-  bottom: 30px;*/
+  bottom: 30px;
   border: 1px solid black;
   border-radius: 5px;
   background-color: floralwhite;
   padding: 5px;
   width: 500px;
   height: 600px;
+  z-index: 999999;
 }
 
 .chat {
