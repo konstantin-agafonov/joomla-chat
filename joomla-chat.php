@@ -10,7 +10,7 @@ $options = array("version" => "auto");
 $attributes = array("defer" => "defer");
 
 $document->addScript(JURI::root()       . "modules/joomla-chat/app/build/static/js/main.371e4360.js", $options, $attributes);
-$document->addStyleSheet(JURI::root()   . "modules/joomla-chat/app/build/static/css/main.960f9393.css", $options);
+$document->addStyleSheet(JURI::root()   . "modules/joomla-chat/app/build/static/css/main.cb65927f.css", $options);
 
 $document->addScriptOptions('my_vars', [ 'id' => "css-js-demo-id2" ] );
 
